@@ -10,5 +10,6 @@ class Test_lang():
         browser.get(link)
         time.sleep(5)
         button = browser.find_element(By.CSS_SELECTOR, '.btn-add-to-basket')
+        assert button
 
 
